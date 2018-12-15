@@ -1,0 +1,20 @@
+# Rakefile defining clean_tmp tasks inside the admin namespace
+
+namespace :admin do
+  desc 'Interactively delete all files in /tmp'
+  namespace :clean do
+    task :tmp do
+      Dir['/temp/*'].each do |f|
+        next unless File.file?(f)
+        print 'Delete #{f}?'
+        answer = $stdin.gets
+        case answer
+        when /^y/
+          File.unlink(f)
+        when /^q/
+          break
+        end
+      end
+    end
+  end
+end

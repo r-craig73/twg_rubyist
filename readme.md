@@ -6,7 +6,10 @@
 
 ## Description
 ### Personal project: Store and run ruby scripts in the _The Well-Groomed Rubyist_ 2nd edition, by David A. Black.
-### Will organize each folder by chapter
+
+<kbd><img src="./img/twg-rubyist.png" alt="Cover page screenshot"></kbd>
+
+### Will organize each folder by chapter.
 
 | Chapter | Title                 |
 | :---:   |     :---              |

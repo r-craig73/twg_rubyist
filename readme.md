@@ -15,6 +15,7 @@
 | :---:   |     :---              |
 | ch01 | Bootstrapping your Ruby literacy |
 | ch02 | Built-in Class and Modules |
+| ch03 | Organizing objects with Classes |
 
 ## Technologies Used
 * Ruby 2.3.4
